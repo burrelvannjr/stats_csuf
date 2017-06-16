@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{authblk} %package for blocking authors, followed by blocking affiliation
+\usepackage{url}
+\usepackage{ulem} % when using ulem package, must change \emph to \it for italics.
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{amssymb,amsmath,tabu}
+\usepackage{hyperref}
+\usepackage[super]{nth}
+\setlength\parindent{0pt}
+\usepackage[english]{babel}
+
+
+\begin{document}
+\title{Homework 2\\ SOCI 303: Statistics for the Social Sciences (Spring 2017) \\ {\large{10 points}}}
+\author[*]{}
+\date{}
+\maketitle
+
+
+
+\section*{Overview:}
+In this assignment, you'll be completing 3 problems using R. These problems cover topics from Chapters 6 through 8 in your textbook. \textbf{Remember to append/copy and paste your R script as the final page of this assignment} (as a new page).
+
+\subsection*{Problem 1 (\textit{The Normal Distribution})}
+\begin{itemize}
+\item Using any mean and standard deviation, plot a normal distribution using $N=100$ cases. Be sure to show your plot.
+\item Using any mean and standard deviation, plot a normal distribution using $N=10,000$ cases. Be sure to show your plot.
+\item Comment on the differences between the two plots.
+\end{itemize}
+
+\subsection*{Problem 2 (\textit{Sampling})}
+\begin{itemize}
+\item Using the \texttt{USArrests} data set in R, take 3 random samples of $N=20$. Remember to give each sample a unique object name so you can do subsequent calculations.
+\item Calculate the means and standard deviations for the \texttt{Murder} variable for each sample.
+\item Comment on the differences between the 3 means, and on the differences between the 3 standard deviations. Do they differ? Why or why not?
+\end{itemize}
+
+\subsection*{Problem 3 (\textit{Estimation})}
+\begin{itemize}
+\item Report the following formulas: 
+	\begin{itemize}
+	\item Z-score
+	\item 99\% confidence interval
+	\item Standard error of the mean of the sampling distribution ($S_{\bar{Y}}$)
+	\end{itemize}
+\item Using the \texttt{USArrests} data set in R, calculate the mean, standard deviation, and the sampling error of the mean of the sampling distribution for the \texttt{Assault} variable. Do not save these as new variables in the data set.
+\item Calculate the z-scores for the \texttt{Assault} variable for all observations and save this as a new variable in the data set. Report the z-score value (of the \texttt{Assault} variable) for the \nth{12} observation.
+\item Calculate the 99\% confidence interval for the \texttt{Assault} variable. Report the lower and upper bounds/values of this confidence interval. 
+\end{itemize}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
